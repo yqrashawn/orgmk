@@ -34,7 +34,7 @@
 (when (locate-library "package")
   (require 'package)
   (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
   (package-initialize)
   (unless package-archive-contents
     (package-refresh-contents)))
